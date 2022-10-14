@@ -1,3 +1,25 @@
+# React JS Tutorial – Build a Weather App With Cities Autocomplete
+https://www.youtube.com/watch?v=Reny0cTTv24
+
+💻 Code: https://github.com/bobangajicsm/react...
+💻 OpenWeather API: https://openweathermap.org/
+💻 GeoDB Cities API: https://rapidapi.com/wirefreethought/...
+
+⭐️ Course Contents ⭐️
+⌨️ (0:00:00) Intro
+⌨️ (0:00:30) How to get API keys
+⌨️ (0:02:30) Creating the application and installing packages
+⌨️ (0:05:25) Building city search component
+⌨️ (0:23:48) Building current weather component
+⌨️ (0:43:23) Fetching and mapping data from weather API
+⌨️ (1:01:35) Building weather forecast component
+⌨️ (1:34:20) Outro
+
+# packages installed during react js tutorial
+- npm i react-accessible-accordion
+- npm i react-select-async-paginate --force
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,6 +91,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### packages installed during react js tutorial
-- npm i react-accessible-accordion
-- npm i react-select-async-paginate --force
+
