@@ -1,11 +1,11 @@
 .weather {
     width: 300px;
-    border-radius: 6px;
+    border-radius: 30px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
     background-color: #333;
-    margin: 20px auto 0 auto;
-    padding: 0 20px 20px 20px;
+    margin: 20px auto 20px auto;
+    padding: 10px 20px;
 }
 
 .top,
@@ -27,7 +27,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1;
-    margin: 0;
+    margin: 5px 0;
+}
+
+.weather-description::first-letter {
+    text-transform: uppercase;
 }
 
 .weather-icon {

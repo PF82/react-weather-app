@@ -11,7 +11,7 @@ const Forecast = ({ data }) => {
 
     return (
         <>
-            <label className="title">Daily</label>
+            <label className="title">Daily Forecast</label>
             <Accordion allowZeroExpanded>
                 {data.list.splice(0, 7).map((item, index) => (
                     <AccordionItem key={index}>
@@ -28,28 +28,28 @@ const Forecast = ({ data }) => {
                         <AccordionItemPanel>
                             <div className="daily-details-grid">
                                 <div className="daily-details-grid-item">
-                                    <label>Pressure:</label>
-                                    <label>{item.main.pressure}hPa</label>
+                                    <label>Feels like</label>
+                                    <label>{Math.round(item.main.feels_like)}°C</label>
                                 </div>
                                 <div className="daily-details-grid-item">
-                                    <label>Humidity:</label>
+                                    <label>Wind speed</label>
+                                    <label>{item.wind.speed}M/S</label>
+                                </div>
+                                <div className="daily-details-grid-item">
+                                    <label>Humidity</label>
                                     <label>{item.main.humidity}%</label>
                                 </div>
                                 <div className="daily-details-grid-item">
-                                    <label>Clouds:</label>
+                                    <label>Clouds</label>
                                     <label>{item.clouds.all}%</label>
                                 </div>
                                 <div className="daily-details-grid-item">
-                                    <label>Wind speed:</label>
-                                    <label>{item.wind.speed}m/s</label>
+                                    <label>Pressure</label>
+                                    <label>{item.main.pressure}hPa</label>
                                 </div>
                                 <div className="daily-details-grid-item">
-                                    <label>Sea level:</label>
-                                    <label>{item.main.sea_level}m</label>
-                                </div>
-                                <div className="daily-details-grid-item">
-                                    <label>Feels like:</label>
-                                    <label>{Math.round(item.main.feels_like)}°C</label>
+                                    <label>Sea level</label>
+                                    <label>{item.main.sea_level}M</label>
                                 </div>
                             </div>
                         </AccordionItemPanel>
